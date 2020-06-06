@@ -8,6 +8,8 @@
   <%= f.text_field :notes, id: "song_notes_attributes_0_content" %>
   <%= f.text_field :notes, id: "song_notes_attributes_1_content" %>
 
+  <input name="song[notes][]" id="song_notes_attributes_0_content">
+  <input name="song[notes][]" id="song_notes_attributes_1_content">
   <br />
 
   <%= f.submit %>
